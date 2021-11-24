@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800 important;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.8s ease;
+    font-weight: 800;
+    color: #20212c;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(34, 34, 34, 0.7));
+    z-index: -1;
+}
+
+.home-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: '../img/contact.jpg';
+}
+
+.btn {
+    padding: 14px 22px;
+    transition: all 0.4s ease;
+}
+
+.btn-main {
+    background: linear-gradient(rgba(247, 236, 89, .6), rgba(218, 252, 29, .9));
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: rgb(46, 134, 46);
+}
+
+.video-btn {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(rgba(247, 236, 89, .6), rgba(218, 252, 29, .9));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #645b5b;
+    border-radius: 100px;
+}
+
+.video-btn i {
+    font-size: 32px;
+}
+
+.btn-main:hover {
+    color: rgb(0, 113, 141);
+    transform: translateY(-8px);
+    letter-spacing: 1px;
+}
+
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar-no-shadow {
+}
+
+.navbar-no-shadow a .nav-link {
+    color: #fff;
+}
+
+.navbar-shadow {
+    box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+    transition: all 0.4s ease;
+    transform: translateY(-8px);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  background: -webkit-linear-gradient(#00e0fe, #1107fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-intro {
+    padding-bottom: 40px;
+}
+
+.divider {
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(rgba(247, 236, 89, 1), rgba(218, 252, 29, 1));
+    margin: 16px auto;
+}
+
+.service {
+    border-radius: 10px;
+    box-shadow:  0 12px 20px rgba(0,0,0,0.05);
+    padding-bottom: 20px;
+}
+
+.service .service-image {
+    position: relative;
+}
+
+.service .service-image .icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(rgba(247, 236, 89, 1), rgba(218, 252, 29, 1));
+    color: rgb(4, 148, 28);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.service .service-image .icon i {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.feature i {
+    background: -webkit-linear-gradient(#00e0fe, #1107fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 54px;
+}
+
+.review {
+    box-shadow: 0 12px 12px  rgba(0,0,0,0.1);
+}
+
+.review .person {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding-bottom: 18px;
+}
+
+.review .person small {
+    font-weight: 550;
+    color: #918d8d;
+}
+
+.review .person img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+.review .stars {
+    color: orange;
+}
+
+form .form-control {
+    color: #fff;
+    border-radius: 5px;
+    background: transparent;
+    border-color:  rgba(255, 255, 255, 0.5);
+}
+
+form input .form-cotrol {
+    height: 54px;
+}
+
+form .form-control:focus {
+    color: #fff;
+    background: transparent;
+    border-color: 1px solid #fff;
+}
+
+form .form-control::placeholder {
+    color: #fff;
+}
+
+footer {
+    background: linear-gradient(rgba(34, 34, 34, 0.7), rgba(255, 255, 255, 0.7));
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
